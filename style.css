@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: azure;
+    color:white;
+}
+#container{
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+    background-color:darkslategrey;
+}
+#input{
+    border: none;
+    width:50px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: azure;
+}
+#btn{
+    border: none;
+    background-color: azure;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 1px;
+}
+#btn:hover{
+    background-color: chartreuse;
+}
